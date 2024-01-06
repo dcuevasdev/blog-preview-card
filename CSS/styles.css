@@ -1,0 +1,10 @@
+/*=== Variables ===*/
+:root {
+  /*== Colors ==*/
+  --main-white: #fff;
+  --main-gray: #808080;
+  --main-black: #121212;
+  --main-bg-color: #f4d04e;
+  /* == Font ==*/
+  --font: "Figtree", sans-serif;
+}
