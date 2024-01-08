@@ -19,7 +19,7 @@
 * {
   margin: 0;
   padding: 0;
-  /*box-sizing: border-box;*/
+  box-sizing: border-box;
 }
 html {
   font-family: var(--font);
@@ -30,6 +30,65 @@ html {
 .container {
   display: grid;
   place-content: center;
-  width: 100%;
+  place-items: center;
   height: 100vh;
+}
+
+/*=== Card ===*/
+.card {
+  width: 90%;
+  padding: 2rem;
+  border: 1px solid var(--main-black);
+  border-radius: 2.8rem;
+  background-color: var(--main-white);
+  box-shadow: 0.8rem 0.8rem var(--main-black);
+}
+.card__image {
+  margin: 0 auto 1.6rem;
+}
+.card__image img {
+  width: 100%;
+  border-radius: 0.8rem;
+}
+.card__label {
+  width: 6.4rem;
+  margin-bottom: 1.2rem;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  font-weight: 900;
+  text-align: center;
+  background-color: var(--main-bg-color);
+}
+.card__date {
+  margin-bottom: 1.6rem;
+  font-size: 1.2rem;
+  color: var(--main-black);
+}
+.card__title {
+  margin-bottom: 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+.card__description {
+  margin-bottom: 1.6rem;
+  font-size: 1.4rem;
+  color: var(--main-gray);
+}
+.card__avatar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15rem;
+}
+.card__avatarPhoto {
+  width: 4rem;
+}
+.card__avatarName {
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+@media (min-width: 500px) {
+  .card {
+    width: 350px;
+  }
 }
