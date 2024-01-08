@@ -92,3 +92,16 @@ html {
     width: 350px;
   }
 }
+
+/*=== Footer ===*/
+.footer {
+  margin-top: 2.4rem;
+  font-size: 1.2rem;
+}
+.footer a {
+  color: dodgerblue;
+}
+.footer a:hover {
+  font-size: 1.4rem;
+  text-decoration: none;
+}
